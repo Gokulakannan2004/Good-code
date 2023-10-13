@@ -1,7 +1,5 @@
-publicclass Fibonaccinumbers
-{
-publicstaticvoid main(String[] args)
-{
+public class Fibonaccinumbers {
+public static void main(String[] args) {
 int elementPosition=1,count=10, firstFibonacciNum=0,nextFibonacciNum=1;
 System.out.print(firstFibonacciNum+""+nextFibonacciNum);
 for(elementPosition=2;elementPosition<count;++elementPosition)
